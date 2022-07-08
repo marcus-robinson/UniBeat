@@ -1,6 +1,6 @@
 # UniBeat - Rhythm Engine
-===
-Created by Marcus Robinson
+
+~ Created by Marcus Robinson ~
 
 A reactive, event-driven rhythm engine for Unity3D designed to be used in any sort of rhythm game.
 
@@ -12,6 +12,8 @@ Inspiration for UniBeat came from [Osu!](https://github.com/ppy/osu). I wanted t
 
 ## The Timeline
 The timeline is the primary data structure of UniBeat. It is a list of events, with each event having an index. Events are emitted by the timeline as its playhead moves from the start to the end.
+
+You will typically supply a list of events to the timeline by deserializing a JSON string using the static method `JsonLoadedTimelineData.Load()`
 
 ## Events
 Your timeline will emit events as the playhead moves. All game functionality is driven by events. A hitobject that the player needs to hit is an event, as is the trigger to start the music or to play a sound effect.
