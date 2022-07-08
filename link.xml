@@ -1,0 +1,11 @@
+<linker>
+  <assembly fullname="UniBeat" preserve="all"/>
+  <assembly fullname="Newtonsoft.Json">
+    <type fullname="Newtonsoft.Json.Converters.StringEnumConverter" preserve="all"/>
+  </assembly>
+  <assembly fullname="System">
+    <type fullname="System.ComponentModel.ReferenceConverter">
+      <method signature="System.Void .ctor(System.Type)" />
+    </type>
+  </assembly>
+</linker>

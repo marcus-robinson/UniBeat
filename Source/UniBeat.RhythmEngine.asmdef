@@ -1,0 +1,23 @@
+{
+    "name": "UniBeat.RhythmEngine",
+    "rootNamespace": "UniBeat.RhythmEngine",
+    "references": [
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:0c752da273b17c547ae705acf0f2adf2",
+        "GUID:13a6fdc14ca9df84eb8019bc66fa9e5d",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d1a649638eb867b45832430399a6a8ef",
+        "GUID:aab3caaf43456d6449a3e035348ff798",
+        "GUID:e9745f6a32442194c8dc5a43e9ab86f9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
